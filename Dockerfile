@@ -4,4 +4,3 @@ copy Mukund.txt /home/ubuntu
 Label  Creater : "Mukund"
 Label  Contact :"00088900"
 Expose :80
-ENV  :Prod
