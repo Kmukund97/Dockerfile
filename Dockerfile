@@ -5,7 +5,7 @@ pipeline {
        credential('Alight123')
        }
        stages {
-            stage (checkout') {
+            stage ('checkout') {
                   steps {
                   script{ https://github.com/Kmukund97/Dockerfile.git
                   with credentials ([usernamepassword(credntialsid: env.GITHUB_CREDENTIALS,
