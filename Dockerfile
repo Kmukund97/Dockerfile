@@ -10,7 +10,7 @@ pipeline {
                   script{ https://github.com/Kmukund97/Dockerfile.git
                   with credentials ([usernamepassword(credntialsid: env.GITHUB_CREDENTIALS,
                   passwordvariable: 'Alight'
-                  usernamevariable : 'GITHUB_USERNAME':)])
+                  usernamevariable : 'kmukund97':)])
                   {
                   credentailsid : 'https://github.com/Kmukund97/Dockerfile.git',branch:'main'
                                                                                         }
