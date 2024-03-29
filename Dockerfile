@@ -13,10 +13,7 @@ pipeline {
                   usernamevariable : 'kmukund97':)])
                   {
                   credentailsid : 'https://github.com/Kmukund97/Dockerfile.git',branch:'main'
-                                                                                        }
-                                                                                    }
-                                                                              }
-                                                                        }
+
                   
  stage ('Build') {
  stpes {
